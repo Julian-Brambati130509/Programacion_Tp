@@ -4,6 +4,8 @@ import static javafx.scene.input.KeyCode.S;
 
 public class Main {
 
+    private static String soy_gay;
+
     public static void main(String[] args) {
         Libro l1 = new Libro(1, 234, "tornado", "mili", true);
         Libro l2 = new Libro(2, 235, "elmas", "capito", false);
@@ -155,5 +157,13 @@ public class Main {
             sc.nextLine();
         }
         System.out.println("chau");
+        
+        System.out.println("escribi soy gay");
+        soy_gay = sc.nextLine();
+        if (soy_gay == "soy gay"){
+            System.out.println("mentiroso");
+        } else {
+            System.out.println("AJSajsjjajsjajjasjj gay de mrd");
+        }
     }
 }
